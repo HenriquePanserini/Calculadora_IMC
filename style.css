@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(67, 103, 182);
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 5px;
+    padding: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: inline-flexbox;
+    transform: translateX(100px);
+    transform: translateY(100px);
+    background-color: rgb(74, 56, 177);
+    border-radius: 25px;
+    outline: 10px solid whitesmoke;
+    transition: all 0.;
+}
+
+.titulo {
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.input {
+    margin: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+button {
+    margin: 5px;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+    transform: translateX(65px);
+}
